@@ -43,7 +43,7 @@ pipeline {
         }
       }
     }
-    // DO NOT uncomment until 06_04 La
+    // DO NOT uncomment until 06_04 Lab
     
     stage('DT Deploy Event') {
       steps {
@@ -64,7 +64,7 @@ pipeline {
     
     
     // DO NOT uncomment until 10_01 Lab
-    /* 
+    
     stage('Run production ready e2e check in staging') {
       steps {
         echo "Waiting for the service to start..."
@@ -105,6 +105,6 @@ pipeline {
         )
       }
     }
-    */
+    
   }
 }
